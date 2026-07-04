@@ -10,9 +10,11 @@
   </tr>
 </table>
 
-[◀ All apps](../README.md) &middot; [Windows](../windows/) &middot; [Android](../android/) &middot; **Unity** &middot; [Python](../python/)
+[← All apps](../README.md) &middot; [Windows](../windows/) &middot; [Android](../android/) &middot; **Unity** &middot; [Python](../python/)
 
 ---
+
+> This is part of **The Balance Toolkit - Apps**, the software accompanying our CHI PLAY 2026 paper. See the [main README](../README.md) for the full overview.
 
 Unity scripts for receiving **Wii Balance Board** center-of-pressure (COP) data from [The Balance Toolkit](../windows/) desktop application and mapping it to GameObject movement in your scene. Two connection methods are provided: **TCP** (no dependencies) and **LSL** (requires LSL4Unity).
 
@@ -179,3 +181,34 @@ Each sample from The Balance Toolkit contains 8 channels:
 - **Unity** 2020.3 LTS or later
 - **The Balance Toolkit** running and streaming data
 - **(LSL only)** [LSL4Unity](https://github.com/labstreaminglayer/LSL4Unity) package + `LSL_AVAILABLE` scripting define symbol
+
+---
+
+## Citation
+
+This software accompanies our CHI PLAY 2026 paper. If you use The Balance Toolkit in your research, please cite it.
+
+**APA**
+
+> Valente, A., Kothari, N., Ahmed-Mahmoud, H., Esteves, A., & Billinghurst, M. (2026). The Balance Toolkit: Democratizing balance-based interaction through open-source software for repurposed Wii Balance Boards. In *Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY '26)*. ACM.
+
+**BibTeX**
+
+```bibtex
+@inproceedings{valente2026balancetoolkit,
+  title     = {The Balance Toolkit: Democratizing Balance-Based Interaction
+               Through Open-Source Software for Repurposed Wii Balance Boards},
+  author    = {Valente, Andreia and Kothari, Nidhi and Ahmed-Mahmoud, Hana
+               and Esteves, Augusto and Billinghurst, Mark},
+  booktitle = {Annual Symposium on Computer-Human Interaction in Play (CHI PLAY '26)},
+  year      = {2026},
+  address   = {York, UK},
+  publisher = {ACM}
+}
+```
+
+DOI to be added on publication.
+
+---
+
+<sub><a href="../README.md">The Balance Toolkit - Apps</a> &middot; The Empathic Computing Laboratory, University of Auckland</sub>

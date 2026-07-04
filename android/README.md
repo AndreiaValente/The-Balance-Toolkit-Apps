@@ -10,9 +10,11 @@
   </tr>
 </table>
 
-[◀ All apps](../README.md) &middot; [Windows](../windows/) &middot; **Android** &middot; [Unity](../unity/) &middot; [Python](../python/)
+[← All apps](../README.md) &middot; [Windows](../windows/) &middot; **Android** &middot; [Unity](../unity/) &middot; [Python](../python/)
 
 ---
+
+> This is part of **The Balance Toolkit - Apps**, the software accompanying our CHI PLAY 2026 paper. See the [main README](../README.md) for the full overview.
 
 The Android companion app connects to a Wii Balance Board over Bluetooth for live center of pressure visualization and standalone capture on a phone or tablet. It runs on its own and does not require the desktop application.
 
@@ -56,3 +58,34 @@ If your device warns that the app was scanned or is from an unknown developer, t
 | Install is blocked | Enable install from unknown sources for the app you are installing from (see Install step 3). |
 | No boards found when scanning | Grant Bluetooth and location permissions, press the board's sync button again, and rescan. |
 | Board disconnects | Replace the board's batteries and keep the device within a few meters. |
+
+---
+
+## Citation
+
+This software accompanies our CHI PLAY 2026 paper. If you use The Balance Toolkit in your research, please cite it.
+
+**APA**
+
+> Valente, A., Kothari, N., Ahmed-Mahmoud, H., Esteves, A., & Billinghurst, M. (2026). The Balance Toolkit: Democratizing balance-based interaction through open-source software for repurposed Wii Balance Boards. In *Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY '26)*. ACM.
+
+**BibTeX**
+
+```bibtex
+@inproceedings{valente2026balancetoolkit,
+  title     = {The Balance Toolkit: Democratizing Balance-Based Interaction
+               Through Open-Source Software for Repurposed Wii Balance Boards},
+  author    = {Valente, Andreia and Kothari, Nidhi and Ahmed-Mahmoud, Hana
+               and Esteves, Augusto and Billinghurst, Mark},
+  booktitle = {Annual Symposium on Computer-Human Interaction in Play (CHI PLAY '26)},
+  year      = {2026},
+  address   = {York, UK},
+  publisher = {ACM}
+}
+```
+
+DOI to be added on publication.
+
+---
+
+<sub><a href="../README.md">The Balance Toolkit - Apps</a> &middot; The Empathic Computing Laboratory, University of Auckland</sub>

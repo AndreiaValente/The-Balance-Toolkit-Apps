@@ -10,9 +10,11 @@
   </tr>
 </table>
 
-[◀ All apps](../README.md) &middot; **Windows** &middot; [Android](../android/) &middot; [Unity](../unity/) &middot; [Python](../python/)
+[← All apps](../README.md) &middot; **Windows** &middot; [Android](../android/) &middot; [Unity](../unity/) &middot; [Python](../python/)
 
 ---
+
+> This is part of **The Balance Toolkit - Apps**, the software accompanying our CHI PLAY 2026 paper. See the [main README](../README.md) for the full overview.
 
 The desktop application is the core of The Balance Toolkit. It pairs with one or two Wii Balance Boards over Bluetooth, computes center of pressure and posturography metrics, records sessions, and streams live data over TCP and LSL for use in games and analysis tools.
 
@@ -58,3 +60,34 @@ The toolkit also runs on macOS and Linux. Those builds are not included in this 
 | Board will not pair | Press the board's sync button again, remove any stale pairing in Windows Bluetooth settings, and retry from the **Devices** menu. |
 | No data reaches Unity or Python | Confirm TCP or LSL streaming is toggled on and recording is started. Check that Windows Firewall allows the app. |
 | App will not start | Confirm you are on 64-bit Windows 10 or 11. |
+
+---
+
+## Citation
+
+This software accompanies our CHI PLAY 2026 paper. If you use The Balance Toolkit in your research, please cite it.
+
+**APA**
+
+> Valente, A., Kothari, N., Ahmed-Mahmoud, H., Esteves, A., & Billinghurst, M. (2026). The Balance Toolkit: Democratizing balance-based interaction through open-source software for repurposed Wii Balance Boards. In *Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY '26)*. ACM.
+
+**BibTeX**
+
+```bibtex
+@inproceedings{valente2026balancetoolkit,
+  title     = {The Balance Toolkit: Democratizing Balance-Based Interaction
+               Through Open-Source Software for Repurposed Wii Balance Boards},
+  author    = {Valente, Andreia and Kothari, Nidhi and Ahmed-Mahmoud, Hana
+               and Esteves, Augusto and Billinghurst, Mark},
+  booktitle = {Annual Symposium on Computer-Human Interaction in Play (CHI PLAY '26)},
+  year      = {2026},
+  address   = {York, UK},
+  publisher = {ACM}
+}
+```
+
+DOI to be added on publication.
+
+---
+
+<sub><a href="../README.md">The Balance Toolkit - Apps</a> &middot; The Empathic Computing Laboratory, University of Auckland</sub>
