@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-[← All apps](../README.md) &middot; [Windows](../windows/) &middot; **Android** &middot; [Unity](../unity/) &middot; [Python](../python/)
+[← All apps](../README.md) &middot; [Windows](../windows/) &middot; **Android** &middot; [Unity](../unity/) &middot; [Python](../python/) &middot; [Source code](https://github.com/trecitano/The-Balance-Toolkit)
 
 ---
 

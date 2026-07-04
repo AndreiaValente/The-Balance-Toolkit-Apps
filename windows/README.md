@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-[← All apps](../README.md) &middot; **Windows** &middot; [Android](../android/) &middot; [Unity](../unity/) &middot; [Python](../python/)
+[← All apps](../README.md) &middot; **Windows** &middot; [Android](../android/) &middot; [Unity](../unity/) &middot; [Python](../python/) &middot; [Source code](https://github.com/trecitano/The-Balance-Toolkit)
 
 ---
 
@@ -50,7 +50,7 @@ Once streaming is on, connect a client from the [`unity/`](../unity/) or [`pytho
 
 ## Other platforms (macOS and Linux)
 
-The toolkit also runs on macOS and Linux. Those builds are not included in this repository. To use them, build from the main Balance Toolkit source (see the root [README.md](../README.md)) or check the project's releases.
+The toolkit also runs on macOS and Linux. Those builds are not included in this repository. To use them, build from the [Balance Toolkit source code](https://github.com/trecitano/The-Balance-Toolkit) or check the project's releases.
 
 ## Troubleshooting
 

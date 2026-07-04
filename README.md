@@ -10,7 +10,7 @@
   </tr>
 </table>
 
-**[Windows](windows/)** &middot; **[Android](android/)** &middot; **[Unity](unity/)** &middot; **[Python](python/)**
+**[Windows](windows/)** &middot; **[Android](android/)** &middot; **[Unity](unity/)** &middot; **[Python](python/)** &middot; **[Source code](https://github.com/trecitano/The-Balance-Toolkit)**
 
 ---
 
@@ -41,7 +41,7 @@ The desktop application is the core of the toolkit. The Unity and Python folders
 
 ## What the toolkit does
 
-- **Cross-platform desktop app** for Windows, macOS, and Linux, built in Rust with a Tauri interface. Only the Windows build is included here. See [windows/README.md](windows/README.md) for other platforms.
+- **Cross-platform desktop app** for Windows, macOS, and Linux, built in Rust with a Tauri interface. Only the Windows build is included here. Build the other platforms from the [source code](https://github.com/trecitano/The-Balance-Toolkit).
 - **Bluetooth connectivity** to one or two Wii Balance Boards at once (dual-board support).
 - **Data processing pipeline** that computes center of pressure, sway, spatial and stability metrics, and frequency analysis.
 - **Real-time streaming** over TCP (binary protocol) and LSL, so games and analysis tools can consume live data.
