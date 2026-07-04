@@ -18,6 +18,14 @@ This repository holds the software that accompanies the paper **_The Balance Too
 
 The Balance Toolkit turns an inexpensive consumer Wii Balance Board (WBB) into a research and development platform for balance-based games, rehabilitation, and accessible play. It handles Bluetooth pairing, reads the four force sensors, computes center of pressure (CoP) and posturography metrics, and streams the data in real time to games and analysis tools over TCP and Lab Streaming Layer (LSL).
 
+## Video walkthrough
+
+<a href="https://youtu.be/_8UwrUgqUao">
+  <img src="https://img.youtube.com/vi/_8UwrUgqUao/maxresdefault.jpg" width="640" alt="Watch The Balance Toolkit walkthrough on YouTube">
+</a>
+
+Watch the full walkthrough on [YouTube](https://youtu.be/_8UwrUgqUao).
+
 ## Repository layout
 
 Each folder has its own README with install and run instructions.
