@@ -1,6 +1,20 @@
-# Balance Board Controller – Unity Package
+<table border="0">
+  <tr>
+    <td width="90" valign="middle" align="center">
+      <a href="../README.md"><img src="../assets/logo.svg" width="72" alt="The Balance Toolkit"></a>
+    </td>
+    <td valign="middle">
+      <h1>Game Engine Integration &middot; Unity</h1>
+      <p><strong>The Balance Toolkit - Apps</strong></p>
+    </td>
+  </tr>
+</table>
 
-Unity scripts for receiving **Wii Balance Board** center-of-pressure (COP) data from [The Balance Toolkit](https://github.com/) and mapping it to GameObject movement in your scene. Two connection methods are provided: **TCP** (no dependencies) and **LSL** (requires LSL4Unity).
+[◀ All apps](../README.md) &middot; [Windows](../windows/) &middot; [Android](../android/) &middot; **Unity** &middot; [Python](../python/)
+
+---
+
+Unity scripts for receiving **Wii Balance Board** center-of-pressure (COP) data from [The Balance Toolkit](../windows/) desktop application and mapping it to GameObject movement in your scene. Two connection methods are provided: **TCP** (no dependencies) and **LSL** (requires LSL4Unity).
 
 ---
 
