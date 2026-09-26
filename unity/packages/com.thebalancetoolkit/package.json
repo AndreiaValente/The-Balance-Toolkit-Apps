@@ -1,0 +1,28 @@
+{
+  "name": "com.thebalancetoolkit",
+  "version": "1.0.0",
+  "displayName": "The Balance Toolkit",
+  "description": "Receive Wii Balance Board center-of-pressure data from The Balance Toolkit desktop application over TCP or LSL and map it to GameObject movement. LSL support and the original demo are optional samples.",
+  "unity": "2020.3",
+  "documentationUrl": "https://github.com/AndreiaValente/The-Balance-Toolkit-Apps/tree/main/unity",
+  "dependencies": {
+    "com.unity.modules.imgui": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "TCP Example",
+      "description": "Import, then choose Balance Toolkit Demo > Create TCP Example Scene.",
+      "path": "Samples~/TCPExample"
+    },
+    {
+      "displayName": "LSL Integration",
+      "description": "LSL controller, plus LSL input for the Balance Toolkit Demo > Monitor monitor. Requires the LSL4Unity compatibility build; install it from Balance Toolkit Demo > Setup before importing.",
+      "path": "Samples~/LSLIntegration"
+    },
+    {
+      "displayName": "Demo",
+      "description": "Original art plus a demo scene generator, and the original URP effects, camera controls and benchmarks. Requires Unity 6.6. After importing, choose Balance Toolkit Demo > Create Demo Scene for a playable scene (the original TBT.unity is incomplete). The effects, camera controls and benchmarks compile only when URP 17, Cinemachine 3, Input System and Timeline are installed; install them from Balance Toolkit Demo > Setup.",
+      "path": "Samples~/Demo"
+    }
+  ]
+}
